@@ -290,5 +290,13 @@ function isCurrent(todo) {
             renderTodos();
         });
 
+
+
         //can find index of item in an array with .indexOf()
         //can remove items with .splice()
+
+
+        // FOR THE LAST 2 BUTTONS: 
+        //1) we need to filter threough the allTodos to find those that are completed
+            //versus those that are expired
+        //2) we need to remove the filtered items that are associated with the buttons
